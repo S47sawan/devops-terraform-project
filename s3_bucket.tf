@@ -11,7 +11,7 @@
 
 resource "aws_s3_bucket" "terraform_backend_s3_bucket" {
   bucket = "devops-terraform-state-smihah"
-  
+
   tags = {
     Name = "devops-terraform-state-smihah"
   }
